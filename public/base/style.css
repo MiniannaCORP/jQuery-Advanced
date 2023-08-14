@@ -1,64 +1,6 @@
-/* Clase 01 - start */
-.greenText {
-  color: green !important;
-  font-weight: bold;
-}
-
-
-/* Clase 02 - selector */
-img{
-  width: 200px;
-  height: 200px;
-}
-
-hr{
-  margin-bottom: 60px;
-}
-
-/* Clase 3 - */
-.img100 {
-  width: 100px;
-  height: 100px;
-}
-
-.divRojo {
-  background-color: red;
-  width: 100px;
-  height: 100px;
-}
-
-/* Clase 4 - */
-dl {
-  width: 400px;
-}
-
-dd {
-  margin: 0;
-  padding: 10px;
-}
-
-dt {
-  /*! Para que el cursor se muestre como si fuese un link ( Manito  */
-  cursor: pointer;
-
-  font-size: 18px;
-  background-color: #e3e3e3;
-  border-bottom: 1px solid #c5c5c5;
-  border-top: 1px solid white;
-}
-
-
-/* Clase 5 - */
-h3 {
-  cursor: pointer;
-}
-
-
-/* Clase 10 - */
-.redBox {
-  /* ! Para moverlo con << jQueryAnimate >> es necesario que << position >> esté en [relative, fixed ó absolute] */
-  position: relative;
+/* Grupo 02 - others */
+.customClass {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: blue;
 }

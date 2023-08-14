@@ -18,8 +18,6 @@ $(() => {
   route.add( 'index.html', function(){ console.log('Este código, solo funciona en el primer parámetro'); });
   route.add( 'about.html', function(){ console.log('Este código, solo funciona en about.html'); });
   route.add( '.*html', function(){ console.log('Este código, solo funciona en cualquier página html'); });
-
   
-
   route.run();
 });
